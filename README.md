@@ -8,13 +8,28 @@ Liri is a commande line node app that take in parameters and returns data to the
 
 ## Commands
 ----------
-Commande that are used in the Liri Bot App in Node JS are te following: <br>
+Commands that are used in the Liri Bot App in Node JS are the following: <br>
 >concert-this<br>
 >spotify-this-song<br>
 >moive-thi<br>
 do-what-it-says
-----
 
+## Resorces 
+------
+**Github** - files/repository<br>
+**Visual Studio Code(VSC)** - code/file editor<br>
+**Node.js**<br>
+**NPM Packages**<br>
+* Axios
+* Node-Spotify-API
+* Moment 
+* DotEnv<br>
+
+**API's Used**
+* Spotify API<br>
+* OMDB<br>
+* Bands in Town<br>
+-------
 
 
 
