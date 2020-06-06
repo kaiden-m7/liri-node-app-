@@ -4,7 +4,7 @@
 
 ## Overview
 -----------------
-Liri is a commande line node app that take in parameters and returns data to the user. Liri is similar to IPhone's Siri; however, Siri using Speech Interpreation and sound whereas Liri is a *Language Interpreation* of user input to data. 
+Liri is a command line node app that take in parameters and returns data to the user. Liri is similar to IPhone's Siri; however, Siri using Speech Interpreation and sound whereas Liri is a *Language Interpreation* of user input to data. 
 
 ## Commands
 ----------

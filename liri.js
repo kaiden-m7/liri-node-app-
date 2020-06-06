@@ -8,3 +8,9 @@ let spotify = new Spotify({
     id: keys.spotify.id,
     secret: keys.spotify.secret,
 });
+let defaultMovie = "Mr. Nobody";
+
+let action = process.argv[2];
+let value = process.argv[3];
+
+
