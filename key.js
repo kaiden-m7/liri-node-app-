@@ -5,6 +5,3 @@ exports.spotify = {
   secret: process.env.SPOTIFY_SECRET
 };
 
-function fetchBands(artist) {
-    axios.get()
-}
