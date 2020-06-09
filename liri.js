@@ -1,5 +1,5 @@
 require("dotenv").config();
-let keys = require("./keys.js");
+let keys = require("keys.js");
 let axios = require("axios");
 let moment = require("moment");
 let Spotify = require("node-spotify-api");
@@ -50,4 +50,21 @@ function fetMovies (movieName) {
             console.log("If you haven't watched 'Mr. Nobody', then you should: http://www.imdb.com/title/tt0485947/");
             console.log("it's on Netflix!");
         };
+}
+
+function fetchSongs(songName) {
+    if (songName === "") {
+        songName = "I Saw the Sign";
+    }
+    spotify.search({ type: 'track', query: songName}, function (err, data) {
+        if (err) {
+        return console.log("error occurred: " + err); 
+        }
+        //lists artists of song
+        console.log("Artists: ", data.tracks.items[0].album.artist[0].name);
+        //shows preview link to song
+        console.log("Preview Link: ", data.tracks.item[0].preview_url);
+        //lists the album the song if from 
+        console.log("Album Name: ", data.tracks.item[0].album.name);
+    });
 }
