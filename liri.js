@@ -1,4 +1,5 @@
 require("dotenv").config();
+
 let keys = require("keys.js");
 let axios = require("axios");
 let moment = require("moment");
@@ -28,7 +29,8 @@ function fetchBands(artist) {
     });
 }
 
-function fetMovies (movieName) {
+//grabs movie info and fills in data with results 
+function fetchMovies (movieName) {
     axios.get("http://www.omdbapi.com/?apikey=fe749e2c" + movieName)
     .then(function (data) {
         let results = `
@@ -52,6 +54,7 @@ function fetMovies (movieName) {
         };
 }
 
+//grabs songs and shows info, if no song searched defult will be 'i saw the sign' by Ace of Base
 function fetchSongs(songName) {
     if (songName === "") {
         songName = "I Saw the Sign";
@@ -68,3 +71,25 @@ function fetchSongs(songName) {
         console.log("Album Name: ", data.tracks.item[0].album.name);
     });
 }
+
+
+function doWhatItSays () {
+    fs.readFile("random.txt", "utf8", function( err, data) {
+        data = data.split(",");
+        let action = data[0]
+        let value = data[1]
+
+        switch (action) {
+            case "concert-this":
+                fetchBands(value)
+                break;
+            case "spotify-this-song":
+                fetchSongs(value)
+                break;
+            case "movie-this":
+                fetchMovies(value)
+                break;
+        }
+    });
+}
+
