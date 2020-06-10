@@ -9,10 +9,10 @@ Liri is a command line node app that take in parameters and returns data to the 
 ## Commands
 ----------
 Commands that are used in the Liri Bot App in Node JS are the following: <br>
->concert-this<br>
->spotify-this-song<br>
->moive-this<br>
-do-what-it-says
+`concert-this`<br>
+`spotify-this-song`<br>
+`moive-this`<br>
+`do-what-it-says`
 
 ## Resorces 
 ------
@@ -30,6 +30,7 @@ do-what-it-says
 * OMDB<br>
 * Bands in Town<br>
 -------
+
 
 
 
