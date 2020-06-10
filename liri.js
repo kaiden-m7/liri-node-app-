@@ -14,6 +14,26 @@ let defaultMovie = "Mr. Nobody";
 let action = process.argv[2];
 let value = process.argv[3];
 
+switch (action) {
+    case "concert-this":
+        fetchBands(value)
+        break;
+    case "spotify-this-song":
+        fetchSongs(value)
+        break;
+    case "movie-this":
+        if (value === "") {
+            value = defaultMovie
+        }
+        fetchMovies(value)
+        break;
+    case "do-what-it-says":
+        doWhatItSays()
+        break:
+        default:
+            break;
+}
+
 //lists concert dates, location and artist function
 //date listed as MM/DD/YYYY
 function fetchBands(artist) {
