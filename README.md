@@ -19,7 +19,7 @@ Commands that are used in the Liri Bot App in Node JS are the following: <br>
 **Github** - files/repository<br>
 **Visual Studio Code(VSC)** - code/file editor<br>
 **Node.js**<br>
-**NPM Packages**<br>
+**NPM Packages**
 * Axios
 * Node-Spotify-API
 * Moment 
@@ -29,7 +29,11 @@ Commands that are used in the Liri Bot App in Node JS are the following: <br>
 * Spotify API<br>
 * OMDB<br>
 * Bands in Town<br>
+
+**Author**<br>
 -------
+Kaiden Munsey <br>
+[Link to Github Profile](https://github.com/kaiden-m7)
 
 
 
