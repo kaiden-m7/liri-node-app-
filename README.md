@@ -23,16 +23,16 @@ Commands that are used in the Liri Bot App in Node JS are the following: <br>
 * Axios
 * Node-Spotify-API
 * Moment 
-* DotEnv<br>
+* DotEnv
 
 **API's Used**
-* Spotify API<br>
-* OMDB<br>
-* Bands in Town<br>
+* Spotify API
+* OMDB
+* Bands in Town
 
-## What the commands will do
+## What the Commands Will Do
 -----
-**Liri** will use **OMDB** to search movies, **Spotify** to search for songs, and **Bands in Town** to look for concerts. 
+**Liri** will use **OMDB** to search movies, **Spotify** to search for songs, and **Bands in Town** to look for concerts
 
 1. `concert-this '<artist/band name here>'`
 - Searches for concert of Artist/Band searched
@@ -63,7 +63,7 @@ Commands that are used in the Liri Bot App in Node JS are the following: <br>
 - Runs `spotify-this-song` for "I want it that way"
 
 
-## Author<br>
+## Author
 -------
 Kaiden Munsey <br>
 [Link to Github Profile](https://github.com/kaiden-m7)
