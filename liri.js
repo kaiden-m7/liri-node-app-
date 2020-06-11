@@ -14,6 +14,7 @@ let defaultMovie = "Mr. Nobody";
 let action = process.argv[2];
 let value = process.argv[3];
 
+function runLiri (action, value){
 switch (action) {
     case "concert-this":
         fetchBands(value)
@@ -33,7 +34,7 @@ switch (action) {
     default:
         break;
 }
-
+}
 //lists concert dates, location and artist function
 //date listed as MM/DD/YYYY
 function fetchBands(artist) {
@@ -114,3 +115,4 @@ function doWhatItSays() {
     });
 }
 
+runLiri(action, value);
