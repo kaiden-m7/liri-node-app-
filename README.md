@@ -62,6 +62,9 @@ Commands that are used in the Liri Bot App in Node JS are the following: <br>
 4. `do-what-it-says`
 - Runs `spotify-this-song` for "I want it that way"
 
+## Demonstration Video
+----
+[Link to Youtube video](https://www.youtube.com/watch?v=CEvZYihy_NA&feature=youtu.be)
 
 ## Author
 -------
