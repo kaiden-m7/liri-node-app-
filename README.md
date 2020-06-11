@@ -69,7 +69,7 @@ Commands that are used in the Liri Bot App in Node JS are the following: <br>
 ## Author
 -------
 Kaiden Munsey <br>
-[Link to Github Profile](https://github.com/kaiden-m7)
+[Github Profile](https://github.com/kaiden-m7)
 
 
 
